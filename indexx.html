@@ -55,6 +55,25 @@
             <li>Feelings</li>
         </ul>
     </h4>
+        <h2 id="vote">
+            <p>Select your favorite ALBUMS:</p>
+  <form action="/action_page.php">
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Songs About Jane">Songs About Jane<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="It Won't Be Soon Before Long">It Won't Be Soon Before Long<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Hands All Over">Hands All Over<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Overexposed">Overexposed<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="V">V<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Red Pill Blues">Red Pill Blues<br><br>
+
+  Your favorite ALBUMS is: <input type="text" id="result">
+  <input type="submit" value="Submit form">
+</form>
+
+<script>
+function myFunction(browser) {
+    document.getElementById("result").value = browser;
+}
+            </script></h2>
         
         <a href= "hhl111213.github.io"><h4>BACK TO HOME PAGE</h4></a>
 
